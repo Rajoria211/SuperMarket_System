@@ -114,29 +114,43 @@ ABCD-supermarket/
 
 ### 1️⃣ Clone the Repository
 
-- git clone <your-repo-url>
-- cd ABCD-supermarket
+```bash
+git clone <your-repo-url>
+cd ABCD-supermarket
+```
 
 ---
 
 ### 2️⃣ Backend Setup
 
-- cd backend
-- npm install
-- Create `.env` file:
-- PORT = 5000
-- MONGO_URI = your_mongodb_connection_string
-- JWT_SECRET = your_secret_key
-- start backend:
-- npm run dev
+```bash
+cd backend
+npm install
+```
+
+Create `.env` file:
+
+```
+PORT = 5000
+MONGO_URI = your_mongodb_connection_string
+JWT_SECRET = your_secret_key
+```
+
+Start backend:
+
+```bash
+npm run dev
+```
 
 ---
 
 ### 3️⃣ Frontend Setup
 
-- cd frontend
-- npm install
-- npm run dev
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ---
 
