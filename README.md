@@ -90,6 +90,7 @@ Reports are generated using MongoDB aggregation pipelines.
 
 ## 📦 Project Structure
 
+```
 ABCD-supermarket/
 │
 ├── backend/
@@ -105,6 +106,7 @@ ABCD-supermarket/
 │ └── api/
 │
 └── README.md
+```
 
 ---
 
