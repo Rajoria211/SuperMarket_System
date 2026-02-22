@@ -6,7 +6,7 @@ const app = express();
 
 dotenv.config();
 
-app.use(cors({ origin: "https://super-market-system.vercel.app/" }));
+app.use(cors());
 app.use(express.json());
 connectDB();
 
