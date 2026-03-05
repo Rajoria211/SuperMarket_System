@@ -47,7 +47,6 @@ export default function ManagerPanel() {
     const matchingItem = products.find((p) => {
       return p.name === name && p.category === category ? p._id : null;
     });
-    console.log(matchingItem._id);
 
     if (!matchingItem) {
       if (!name || !category || !price || !quantity) {
